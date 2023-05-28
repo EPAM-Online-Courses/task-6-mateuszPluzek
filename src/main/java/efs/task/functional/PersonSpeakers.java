@@ -31,5 +31,5 @@ class PersonSpeakers {
         return p -> {return p.getCountryOfLiving() == Country.USA?HELLO+p.getName():
                 p.getCountryOfLiving() == Country.PL?CZESC+p.getName():
                 HALLO+p.getName();};
-    }
+    }//
 }
